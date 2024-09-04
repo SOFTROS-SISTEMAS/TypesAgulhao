@@ -1,0 +1,24 @@
+{
+    "name": "types-agulhao",
+    "version": "1.0.0",
+    "description": "TypeScript definitions for Agulhao",
+    "homepage": "https://github.com/SOFTROS-SISTEMAS/TypesAgulhao",
+    "license": "MIT",
+    "main": "",
+    "types": "index.d.ts",
+    "files": [
+        "index.d.ts",
+        "source"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SOFTROS-SISTEMAS/TypesAgulhao.git"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "",
+    "typeScriptVersion": "4.5",
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    }
+}
