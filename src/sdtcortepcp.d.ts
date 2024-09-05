@@ -1,0 +1,50 @@
+
+export interface GxsdtCortePCP {
+    CorteId: number;
+    CorteProdutoCod: number;
+    CorteProdutoDescricao: number;
+    CorteProdutoReferencia: string;
+    CorteDataEntrada: string;
+    CorteDataOficina: string;
+    CorteDataLavanderia: string;
+    CorteDataAcabamento: string;
+    CorteDataProvavel: string;
+    QtdPecas: number;
+    OficinaFinalizada: string;
+    OficinaAtraso: string;
+    LavanderiaFinalizada: string;
+    LavanderiaAtraso: string;
+    AcabamentoFinalizada: string;
+    AcabamentoAtraso: string;
+    EntregaAtraso: string;
+    EnvioOficina: string;
+    EnvioLavanderia: string;
+    EnvioAcabamento: string;
+    RealOficina: string;
+    RealLavanderia: string;
+    RealAcabamento: string;
+    OficinaBloqueada: boolean;
+    OficinaLiberada: boolean;
+    LavanderiaBloqueada: boolean;
+    LavanderiaLiberada: boolean;
+    AcabamentoBloqueado: boolean;
+    AcabamentoLiberado: boolean;
+    QtdEtapasConcluidas: number;
+    CorteClienteNome: number;
+    OficinaNome: string;
+    LavanderiaNome: string;
+    AcabamentoNome: string;
+    OficinaCodigo: number;
+    LavanderiaCodigo: number;
+    AcabamentoCodigo: number;
+    GrupoCod: number;
+    SubGrupoCod: number;
+    GrupoDescricao: string;
+    SubGrupoDescricao: string;
+    ProdutoValor1: number;
+    ProdutoValor2: number;
+    ProdutoValor3: number;
+    ProdutoValor4: number;
+    ProdutoValor5: number;
+}
+        
