@@ -170,7 +170,7 @@ export interface GxAppClientePedidos {
     PedidoMotoristaNome: string;
     PedidoMetodoEnvio: number;
     PedidoGuiaCod: number;
-    PedidoGuiaNome: number;
+    PedidoGuiaNome: string;
     TipoLancamentoDescricao: string;
     PedidoTabelaPreco: number;
     PedidoObservacoes: string;

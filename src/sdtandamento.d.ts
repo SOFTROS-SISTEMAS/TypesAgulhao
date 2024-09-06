@@ -23,7 +23,7 @@ export interface GxsdtAndamento {
     PedidoVendedorCod: number;
     PedidoPrioridade: string;
     PedidoPercCompleto: number;
-    PedidoClienteNome: number;
+    PedidoClienteNome: string;
     PedidoTotQtde: number; // Qtde Pedido
     PedidoQtdeAte: number; // Qtde Estoque
     PedidoQtdeConf: number; // Qtde Conf.

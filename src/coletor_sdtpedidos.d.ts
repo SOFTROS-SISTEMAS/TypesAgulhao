@@ -62,7 +62,7 @@ export interface GxColetor_sdtPedidos {
     PedidoPrazoCod: number; // Pedido Prazo Cod
     FilialCod: number; // Cód. Filial
     PedidoVendedorCod: number; // Pedido Vendedor Cod
-    PedidoVendedorNome: number;
+    PedidoVendedorNome: string;
     PedidoCliCod: number; // Pedido Cli Cod
     PedidoColecaoCod: number; // Pedido Colecao Cod
     UltUpdPedido: string;
@@ -95,7 +95,7 @@ export interface GxColetor_sdtPedidos {
     PedidoCoordenadas: string;
     PedidoObsInterna: string;
     PedidoDataAprovado: string;
-    PedidoClienteNome: number;
+    PedidoClienteNome: string;
     PedidoDescontoIcmsDes: number;
     PedidoDescontoImpostos: number;
     PedidoValorFrete: number;

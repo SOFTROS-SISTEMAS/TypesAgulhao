@@ -100,8 +100,8 @@ export interface GxColetor_TabAuxiliaresBandeiras {
     BandeiraDiaCredVista: number;
     BandeiraDiaCredPrazo: number;
     SBBandeiraPessoaCod: number;
-    SBBandeiraPessoaNome: number;
-    SBBandeiraPessoaCpfCnpj: number;
+    SBBandeiraPessoaNome: string;
+    SBBandeiraPessoaCpfCnpj: string;
     SBBandeiraHistoricoCod: number;
     SBBandeiraHistoricoDesc: number;
     SBBandeiraHistoricoRecDes: number;

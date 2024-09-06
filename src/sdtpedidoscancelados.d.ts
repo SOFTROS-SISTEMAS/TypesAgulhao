@@ -18,11 +18,11 @@ export interface GxsdtPedidosCanceladoscancelados {
     PedidoId?: number;
     PedidoDataEmissao?: string;
     PedidoVendedorCod?: number;
-    PedidoVendedorNome?: number;
+    PedidoVendedorNome?: string;
     PedidoClienteCod?: number;
-    PedidoClienteNome?: number;
+    PedidoClienteNome?: string;
     PedidoClienteFantasia?: number;
-    PedidoClienteCpfCnpj?: number;
+    PedidoClienteCpfCnpj?: string;
     PedidoJustificativaCod?: number;
     PedidoJustificativaDes?: string;
     PedidoColecaoCod?: number;

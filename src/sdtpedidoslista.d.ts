@@ -10,7 +10,7 @@ export interface GxsdtPedidosLista {
     PedidoQtdVolume: number;
     isChecado: boolean;
     PedidoClienteCod: number;
-    PedidoClienteNOme: number;
+    PedidoClienteNOme: string;
     PedidoTotQtde: number;
     PedidoTabelaPreco: number;
     FilialNom: string;

@@ -14,8 +14,8 @@ export interface GxsdtGradeItemPedido {
     ProdutoQtdeEstoqueSec: number;
     PedidoDataEmissao: string;
     PedidoPrevisaoEntrega: string;
-    PedidoClienteNome: number;
-    PedidoVendedorNome: number;
+    PedidoClienteNome: string;
+    PedidoVendedorNome: string;
     PedidoId: number;
     ProdutoGradeOrdem: number;
     PedidoSaidaStatus: number;

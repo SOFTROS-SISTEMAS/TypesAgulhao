@@ -8,7 +8,7 @@ export interface GxsdtR02002 {
     PedidoStatusStr: string;
     PedidoStatusFinStr: string;
     PedidoClienteCod: number;
-    PedidoCLienteNome: number;
+    PedidoCLienteNome: string;
     TipoLancamentoDescricao: string;
     QtdePedido: number;
     QtdeFaturadas: number;

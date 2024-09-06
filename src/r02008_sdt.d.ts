@@ -32,7 +32,7 @@ export interface GxR02008_SDTPedidos {
     PedidoDataFechamento: string;
     PedidoQtdPecas: number;
     PedidoClienteCod: number;
-    PedidoClienteNome: number;
+    PedidoClienteNome: string;
     PedidoClienteFantasia: number;
     PedidoVlrVenda: number;
     PedidoBaseComissao: number;

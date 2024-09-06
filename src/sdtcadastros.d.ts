@@ -189,9 +189,9 @@ export interface GxsdtCadastrosBandeira {
     BandeiraDiaCredPrazo: number;
     SBBandeiraPessoaCod: number;
     SBBandeiraPessoaNome: number;
-    SBBandeiraPessoaCpfCnpj: number;
+    SBBandeiraPessoaCpfCnpj: string;
     SBBandeiraHistoricoCod: number;
-    SBBandeiraHistoricoDesc: number;
+    SBBandeiraHistoricoDesc: string;
     SBBandeiraHistoricoRecDes: number;
     SBBandeiraHistoricoPlanContPref: number;
     isExcluir: boolean;

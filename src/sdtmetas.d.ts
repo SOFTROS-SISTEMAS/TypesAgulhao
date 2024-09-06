@@ -1,4 +1,4 @@
-import { GxMetas, Metas as GxSdtImportadoMetas, Metas } from './metas, metas'
+import { GxMetas as GxSdtImportadoMetas } from './metas'
 import { GxsdtR02002 as GxSdtImportadosdtR02002 } from './sdtr02002'
 
 export interface GxsdtMetasFiltros {
@@ -80,7 +80,7 @@ export interface GxsdtMetasRankingProdutos {
 export interface GxsdtMetasResumoVendasDatasPedidos {
     PedidoId: number;
     PedidoClienteCod: number;
-    PedidoClienteNome: number;
+    PedidoClienteNome: string;
     PedidoValorLiquido: number;
     PedidoTotQtde: number;
     PedidoFormasPagamento: string;
@@ -129,7 +129,7 @@ export interface GxsdtMetasComparativoFiliais {
         
 export interface GxsdtMetasPedidosMargempedidos {
     pedidoId: number;
-    pedidoClienteNome: number;
+    pedidoClienteNome: string;
     pedidoEmissao: string;
     pedidoValorLiquido: number;
     pedidoQuantidade: number;
@@ -160,7 +160,7 @@ export interface GxsdtMetas {
     FilialCod: number;
     PessoaCod: number;
     Acao: string;
-    Metas: GxSdtImportadoMetas, Metas[];
+    Metas: GxSdtImportadoMetas[];
     PedidosPeriodo: GxSdtImportadosdtR02002;
     Filtros: GxsdtMetasFiltros;
     Mensagens: GxsdtMetasMensagens[];

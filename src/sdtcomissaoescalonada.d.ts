@@ -2,7 +2,7 @@
 export interface GxsdtComissaoEscalonadaEscalonamentoComissao {
     PedidoId: number;
     PedidoDataFechamento: string;
-    PedidoClienteNome: number;
+    PedidoClienteNome: string;
     PedidoCondicaoPgto: string;
     PedidoValorLiquido: number;
     PedidoValorPago: number; // Valor pago
