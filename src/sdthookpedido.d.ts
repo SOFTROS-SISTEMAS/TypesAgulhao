@@ -26,7 +26,7 @@ export interface GxsdtHookPedidoitens {
     PedidoItemQuantidade: number;
     PedidoItemValorLiquido: number;
     PedidoItemValorTabela: number;
-    ProdutoGradeCorNome: number;
+    ProdutoGradeCorNome: string;
 }
         
 export interface GxsdtHookPedidopagamentostef {

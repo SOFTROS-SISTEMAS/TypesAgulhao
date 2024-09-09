@@ -45,11 +45,11 @@ export interface GxsdtMovimentoConta {
     MovimentoContaChaveBaixa: number;
     MovimentoContaStatus: string;
     MovimentoContaFuncionarioCod: number;
-    MovimentoContaFuncionarioNome: number;
+    MovimentoContaFuncionarioNome: string;
     MovimentoContaCaixaPdvId: number;
     MovimentoContaPdvId: number;
     MovimentoContaCliCod: number;
-    MovimentoContaCliNom: number;
+    MovimentoContaCliNom: string;
     FechamentoCaixaId: number;
     PlanoConta: GxsdtMovimentoContaPlanoConta[];
 }

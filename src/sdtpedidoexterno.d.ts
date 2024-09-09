@@ -13,8 +13,8 @@ export interface GxsdtPedidoExternoProdutos {
     ProdutoCod: number;
     ProdutoGradeId: number;
     ProdutoGradeBarras: number;
-    ProdutoGradeCorNome: number;
-    ProdutoGradeCorHexa: number;
+    ProdutoGradeCorNome: string;
+    ProdutoGradeCorHexa: string;
     ProdutoGradeNumero: string;
     ProdutoGradeOrdem: number;
     ProdutoReferencia: string;

@@ -32,11 +32,11 @@ export interface GxsdtCargaRota {
     CargaCodigo: number;
     CargaDataSaidaEmpresa: string;
     CargaDataChegadaDestino: string;
-    VeiculoCargaPlaca: number;
-    VeiculoCargaDescricao: number;
+    VeiculoCargaPlaca: string;
+    VeiculoCargaDescricao: string;
     PesoCarga: number;
     CargaFuncionariosPessoaCod: number;
-    CargaFuncionariosPessoaNome: number;
+    CargaFuncionariosPessoaNome: string;
     pedidos: GxsdtCargaRotapedidos[];
 }
         

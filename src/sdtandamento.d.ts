@@ -5,7 +5,7 @@ export interface GxsdtAndamentosdtAndamentoPedidosItems {
     PedidoItemGradeQtdAtePrd: number;
     PedidoItemGradePercAte: number;
     ProdutoGradeNumero: string;
-    ProdutoGradeCorNome: number;
+    ProdutoGradeCorNome: string;
     produtoCod: number;
     ProdutoDescricao: string;
     ProdutoGradeBarras: number;

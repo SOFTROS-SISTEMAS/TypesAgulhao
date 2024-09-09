@@ -30,7 +30,7 @@ export interface GxsdtCortePCP {
     AcabamentoBloqueado: boolean;
     AcabamentoLiberado: boolean;
     QtdEtapasConcluidas: number;
-    CorteClienteNome: number;
+    CorteClienteNome: string;
     OficinaNome: string;
     LavanderiaNome: string;
     AcabamentoNome: string;

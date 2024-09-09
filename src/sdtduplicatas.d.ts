@@ -5,7 +5,7 @@ export interface GxsdtDuplicatas {
     DuplicataPedidoId: number; // Duplicata Pedido Id
     TipoDuplicata: string; // Tipo
     ClienteDuplicataCod: number; // Cliente Duplicata Cod
-    ClienteDuplicataNome: number; // Cliente Duplicata Nome
+    ClienteDuplicataNome: string; // Cliente Duplicata Nome
     DuplicataEspecie: string;
     DuplicataNumero: string; // Duplicata Numero
     DuplicataEmissao: string; // Duplicata Emissao

@@ -2,8 +2,8 @@
 export interface GxsdtProdutosGrade {
     ProdutoCod: number; // Produto
     ProdutoGradeCorCod: number; // Produto Grade Cor Cod
-    ProdutoGradeCorNome: number; // Produto Grade Cor Nome
-    ProdutoGradeCorHexa: number;
+    ProdutoGradeCorNome: string; // Produto Grade Cor Nome
+    ProdutoGradeCorHexa: string;
     ProdutoGradeQtdEmb: number;
     ProdutoGradeQtdeEtiqueta: number;
     ProdutoGradeNumero: string; // Produto Grade Numero

@@ -75,9 +75,9 @@ export interface GxAppClienteCliente {
         
 export interface GxAppClienteProdutosCores {
     ProdutoGradeCorCod: number;
-    ProdutoGradeCorNome: number;
-    ProdutoGradeCorHexa: number;
-    ProdutoGradeCorImgExt: number;
+    ProdutoGradeCorNome: string;
+    ProdutoGradeCorHexa: string;
+    ProdutoGradeCorImgExt: string;
 }
         
 export interface GxAppClienteProdutosOferta {
@@ -112,7 +112,7 @@ export interface GxAppClienteProdutosGrades {
     ProdutoGradePreco: number;
     ProdutoGradePrecoProm: number;
     ProdutoEstoque: number;
-    ProdutoGradeCorNome: number;
+    ProdutoGradeCorNome: string;
     ProdutoGradeCorCod: number;
     ProdutoGradeCor: string;
     ProdutoGradeCorImgExt: number;
@@ -149,7 +149,7 @@ export interface GxAppClientePedidosItens {
     ProdutoDescricaoCompleta: string;
     PedidoItemQtde: number;
     PedidoItemVlrUnitario: number;
-    ProdutoGradeCorNome: number;
+    ProdutoGradeCorNome: string;
     ProdutoGradeCor: string;
     ProdutoImagemUrl: string | null;
     PedidoItemDescontoPerc: number;

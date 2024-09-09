@@ -54,8 +54,8 @@ export interface GxsdtMetasDashMarca {
     vwDashMarcaMes: number;
     vwDashMarcaAno: number;
     vwDashMarcaValor: number;
-    vwDashMarcaNome: number;
-    vwDashMarcaLogo: number;
+    vwDashMarcaNome: string;
+    vwDashMarcaLogo: string;
 }
         
 export interface GxsdtMetasRankingProdutosProdutos {

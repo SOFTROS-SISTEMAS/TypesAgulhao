@@ -4,17 +4,17 @@ export interface GxsdtCorteGradesCorteGrades {
     CorteGradeProdutoId: number; // Corte Grade Produto Id
     CorteGradeNumero: number; // Corte Grade Numero
     CorteGradeCorCod: number; // Corte Grade Cor Cod
-    CorteGradeCorNome: number; // Corte Grade Cor Nome
-    CorteGradeCorHexa: number;
+    CorteGradeCorNome: string; // Corte Grade Cor Nome
+    CorteGradeCorHexa: string;
     CorteEnfestoQtde: number;
     CorteGradeEnfestoA: number; // Enfesto A
     CorteGradeEnfestoB: number; // Enfesto B
     CorteGradeEnfestoC: number; // Enfesto C
     CorteGradeRetalho: number; // Retalho
     CorteGradeZiperCod: number; // Ziper
-    CorteGradeZiperDescricao: number; // [object Object]
+    CorteGradeZiperDescricao: number;
     CorteGradeEtqCod: number; // Etiqueta
-    CorteGradeEtqDescricao: number; // [object Object]
+    CorteGradeEtqDescricao: string;
 }
         
 export interface GxsdtCorteGrades {

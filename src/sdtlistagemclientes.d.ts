@@ -38,7 +38,7 @@ export interface GxsdtListagemClientesbuscaclientes {
     PessoaEndComplemento: string;
     PessoaBairro: string;
     PessoaGuiaCod: number;
-    PessoaGuiaNome: number;
+    PessoaGuiaNome: string;
     Origem?: string;
     condicionalPedidoValorLiquido: number;
     condicionalPedidoDataEmissao: string;

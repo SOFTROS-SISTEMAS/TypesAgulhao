@@ -14,7 +14,7 @@ export interface GxColetor_ProdutosGrades {
     ProdutoGradeBarras: number; // Código de Barras
     ProdutoGradeOrdem: number; // Ordem do item
     ProdutoGradeCorCod: number;
-    ProdutoGradeCorNome: number;
+    ProdutoGradeCorNome: string;
     ProdutoGradeCorHexa: string;
     ProdutoGradeDispVda: boolean;
     Estoque: GxColetor_ProdutosGradesEstoque[];

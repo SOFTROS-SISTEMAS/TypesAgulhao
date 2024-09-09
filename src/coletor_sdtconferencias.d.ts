@@ -44,15 +44,15 @@ export interface GxColetor_sdtConferencias {
     ConferenciaStatus: number; // Status da conferência
     ConferenciaFilialCod: number;
     ConferenciaFornecedorCod: number;
-    ConferenciaFornecedorNome: number;
-    ConferenciaFornecedorCnpj: number;
+    ConferenciaFornecedorNome: string;
+    ConferenciaFornecedorCnpj: string;
     ConferenciaFornecedorPref: number;
     ConferenciaTransportadorCod: number;
-    ConferenciaTransportadorNom: number;
+    ConferenciaTransportadorNom: string;
     ConferenciaDataHora: string;
     ConferenciaIsSeg: boolean;
     ConferenciaUsrConfCod: number;
-    ConferenciaUsrConfNom: number;
+    ConferenciaUsrConfNom: string;
     Produtos: GxColetor_sdtConferenciasProdutos[];
 }
     

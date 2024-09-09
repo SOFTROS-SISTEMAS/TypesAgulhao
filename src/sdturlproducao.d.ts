@@ -34,7 +34,7 @@ export interface GxsdtUrlProducaoFiltros {
     CorteProdutoCod: number;
     Texto: string;
     CortePedidoId: number;
-    CorteClienteNome: number;
+    CorteClienteNome: string;
     isTodosBloqueios: boolean;
     Modo: string;
     Ordem: number;
@@ -49,7 +49,7 @@ export interface GxsdtUrlProducaoFiltros {
 export interface GxsdtUrlProducaoCortesCorteAcabamento {
     CorteAcabamentoId: number; // Corte Acabamento Id
     CorteAcabamentoPessoaCod: number; // Corte Acabamento Pessoa Cod
-    CorteAcabamentoPessoaNome: number; // Corte Acabamento Pessoa Nome
+    CorteAcabamentoPessoaNome: string; // Corte Acabamento Pessoa Nome
     CorteAcabamentoDataEnvio: string; // Corte Acabamento Data Envio
     CorteAcabamentoDataEntrega: string; // Corte Acabamento Data Entrega
     CorteAcabamentoQtdePecas: number; // Corte Acabamento Qtde Pecas
@@ -58,7 +58,7 @@ export interface GxsdtUrlProducaoCortesCorteAcabamento {
 export interface GxsdtUrlProducaoCortesCorteLavanderia {
     CorteLavanderiaId: number; // Corte Lavanderia Id
     CorteLavanderiaPessoaCod: number; // Corte Lavanderia Pessoa Cod
-    CorteLavanderiaPessoaNome: number; // Corte Lavanderia Pessoa Nome
+    CorteLavanderiaPessoaNome: string; // Corte Lavanderia Pessoa Nome
     CorteLavanderiaDataEnvio: string; // Corte Lavanderia Data Envio
     CorteLavanderiaDataEntrega: string; // Corte Lavanderia Data Entrega
     CorteLavanderiaQtdePecas: number; // Corte Lavanderia Qtde Pecas
@@ -85,7 +85,7 @@ export interface GxsdtUrlProducaoCortesCorteEtapasInfos {
         
 export interface GxsdtUrlProducaoCortesCorteEtapasTerceiros {
     EtapaClienteCod: number;
-    EtapaClienteNome: number;
+    EtapaClienteNome: string;
 }
         
 export interface GxsdtUrlProducaoCortesCorteEtapasMovtoGrade {
@@ -107,7 +107,7 @@ export interface GxsdtUrlProducaoCortesCorteEtapasMovto {
     CorteEtapaMovtoPedido: number; // Nº do Pedido vinculado
     CorteEtapaMovtoIdNFe: string; // Chave de NFe
     CorteEtapaMovtoBenCod: number;
-    CorteEtapaMovtoBenNome: number;
+    CorteEtapaMovtoBenNome: string;
     CorteEtapaMovtoFechamentoId: number;
     CorteEtapaMovtoHora: string;
     CorteEtapaMovtoMaqCod: number;
@@ -171,8 +171,8 @@ export interface GxsdtUrlProducaoCortesCorteGrades {
     CorteGradeProdutoId: number;
     CorteGradeMovimento: number;
     CorteGradeCorCod: number;
-    CorteGradeCorNome: number;
-    CorteGradeCorHexa: number;
+    CorteGradeCorNome: string;
+    CorteGradeCorHexa: string;
 }
         
 export interface GxsdtUrlProducaoCortesCorteConferenciaGrades {
@@ -215,12 +215,12 @@ export interface GxsdtUrlProducaoCortes {
     CorteOP: number; // Corte OP
     CorteOC: number; // Corte OC
     CorteClienteCod: number; // Corte Cliente Cod
-    CorteClienteNome: number; // Corte Cliente Nome
+    CorteClienteNome: string; // Corte Cliente Nome
     CorteClientePrevEntrega: number; // Corte Cliente Prev Entrega
     CorteValorPeca: number; // Corte Valor Peca
     CorteValorPecaDev: number; // Corte Valor Peca Dev
     CorteTranspCod: number; // Corte Transp Cod
-    CorteTranspNome: number; // Corte Transp Nome
+    CorteTranspNome: string; // Corte Transp Nome
     CorteFechamentoFreteId: number; // Corte Fechamento Frete Id
     CorteTotalPecasSetor: number; // Corte Total Pecas Setor
     CorteTotalPecasGrade: number; // Corte Total Pecas Grade

@@ -1,7 +1,7 @@
 
 export interface GxMetasVendedor {
     MetaMensalVendedorCod: number;
-    MetaMensalVendedorNome: number;
+    MetaMensalVendedorNome: string;
     MetaMensalVendedorValor: number;
     MetaMensalVendedorValorAlcancado: number;
     MetaMensalVendedorFoto: string;

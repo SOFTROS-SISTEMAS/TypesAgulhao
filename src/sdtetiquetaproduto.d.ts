@@ -6,7 +6,7 @@ export interface GxsdtEtiquetaProduto {
     ProdutoDescricao: string;
     ProdutoGradeBarras: number;
     ProdutoGradeNumero: string;
-    ProdutoGradeCorNome: number;
+    ProdutoGradeCorNome: string;
     QtdeEtiquetas: number;
     TabelaPreco1: number;
     ProdutoNomeAbreviado: string;

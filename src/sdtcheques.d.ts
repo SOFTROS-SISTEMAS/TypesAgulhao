@@ -5,7 +5,7 @@ export interface GxsdtCheques {
     FilialCod: number; // Filial
     DuplicataPedidoId: number; // Pedido
     ClienteDuplicataCod: number; // Cliente
-    ClienteDuplicataNome: number; // Nome
+    ClienteDuplicataNome: string; // Nome
     DuplicataNumero: string; // Número
     DuplicataEmissao: string; // Emissão
     DuplicataVencimento: string; // Bom para
@@ -26,6 +26,6 @@ export interface GxsdtCheques {
     DuplicataChaveDFe: string;
     DuplicataNotaId: number;
     FuncionarioOleriteCod: number;
-    FuncionarioOleriteNome: number;
+    FuncionarioOleriteNome: string;
 }
         

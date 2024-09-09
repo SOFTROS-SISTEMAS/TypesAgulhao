@@ -23,7 +23,7 @@ export interface GxsdtDuplicatasBaixa {
     FilialCod: number;
     FilialNom: string;
     ClienteDuplicataCod: number;
-    ClienteDuplicataNome: number;
+    ClienteDuplicataNome: string;
     TipoDuplicata: string;
     DuplicataQtdCUB: number;
     DuplicataRemessaPagFor: string;

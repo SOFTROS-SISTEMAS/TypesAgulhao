@@ -18,15 +18,15 @@ export interface GxColetor_sdtConferencia {
     ConferenciaStatus: number; // Status da conferência
     ConferenciaFilialCod: number; // Filial da conferência
     ConferenciaFornecedorCod: number; // Fornecedor confêrencia
-    ConferenciaFornecedorNome: number; // Nome do fornecedor da conferencia
-    ConferenciaFornecedorCnpj: number; // Cnpj do fornecedor da conferencia
+    ConferenciaFornecedorNome: string; // Nome do fornecedor da conferencia
+    ConferenciaFornecedorCnpj: string; // Cnpj do fornecedor da conferencia
     ConferenciaFornecedorPref: number; // Fornecedor preferencial da conferencia
     ConferenciaTransportadorCod: number; // Transportador
-    ConferenciaTransportadorNom: number; // Nome do transportador
+    ConferenciaTransportadorNom: string; // Nome do transportador
     ConferenciaDataHora: string; // Data e Hora da Conferencia
     ConferenciaIsSeg: boolean; // Segunda Conferência?
     ConferenciaUsrConfCod: number; // Usuário que fechou a conferência
-    ConferenciaUsrConfNom: number; // Nome do usuário
+    ConferenciaUsrConfNom: string; // Nome do usuário
     Itens: GxColetor_sdtConferenciaItens[];
 }
     

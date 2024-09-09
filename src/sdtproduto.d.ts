@@ -22,7 +22,7 @@ export interface GxsdtProdutoProdutoGrade {
     ProdutoGradeId: number; // Produto Grade Id
     ProdutoGradeNumero: string; // Produto Grade Numero
     ProdutoGradeCorCod: number; // Produto Grade Cor Cod
-    ProdutoGradeCorNome: number; // Produto Grade Cor Nome
+    ProdutoGradeCorNome: string; // Produto Grade Cor Nome
     ProdutoGradeBarras: number; // Produto Grade Barras
 }
         
@@ -74,7 +74,7 @@ export interface GxsdtProduto {
     ProdutoCusto: number; // Produto Custo
     ProdutoControlePorLote: boolean; // Produto Controle Por Lote
     ProdutoOperacaoClienteCod: number; // Produto Operacao Cliente Cod
-    ProdutoOperacaoClienteNome: number; // Produto Operacao Cliente Nome
+    ProdutoOperacaoClienteNome: string; // Produto Operacao Cliente Nome
     ProdutoValorChefe: number; // Produto Valor Chefe
     ProdutoValorServTer: number; // Produto Valor Serv Ter
     ProdutoPecasPorPacote: number; // Produto Pecas Por Pacote

@@ -38,7 +38,7 @@ export interface GxsdtCargaCeasaCarga {
         
 export interface GxsdtCargaCeasaFornecedor {
     FornecedorCod: number;
-    FornecedorNome: number;
+    FornecedorNome: string;
     FornecedorCpfCnpj: string;
     Produtos: number[];
 }

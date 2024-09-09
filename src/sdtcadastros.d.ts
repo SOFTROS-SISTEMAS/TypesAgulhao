@@ -11,8 +11,8 @@ export interface GxsdtCadastrosProdutosGrades {
     ProdutoGradeId: number;
     ProdutoGradeNumero: string;
     ProdutoGradeCorCod: number;
-    ProdutoGradeCorNome: number;
-    ProdutoGradeCorHexa: number;
+    ProdutoGradeCorNome: string;
+    ProdutoGradeCorHexa: string;
     ProdutoGradeQtdEmb: number;
     ProdutoGradeColunaPreco: number;
     ProdutoGradeOrdem: number;
@@ -188,7 +188,7 @@ export interface GxsdtCadastrosBandeira {
     BandeiraDiaCredVista: number;
     BandeiraDiaCredPrazo: number;
     SBBandeiraPessoaCod: number;
-    SBBandeiraPessoaNome: number;
+    SBBandeiraPessoaNome: string;
     SBBandeiraPessoaCpfCnpj: string;
     SBBandeiraHistoricoCod: number;
     SBBandeiraHistoricoDesc: string;

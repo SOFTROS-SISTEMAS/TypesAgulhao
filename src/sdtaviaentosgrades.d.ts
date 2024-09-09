@@ -3,8 +3,8 @@ export interface GxsdtAviaentosGradesGrade {
     ProdutoGradeId: number;
     ProdutoGradeNumero: string;
     ProdutoGradeCorCod: number;
-    ProdutoGradeCorNome: number;
-    ProdutoGradeCorHexa: number;
+    ProdutoGradeCorNome: string;
+    ProdutoGradeCorHexa: string;
     ProdutoIsTecido: boolean;
     ProdutoIsAviamento: boolean;
     Quantidade: number | null;

@@ -9,8 +9,8 @@ export interface GxsdtEstoqueProduto {
     ProdutoGradeId: number;
     ProdutoGradeNumero: string;
     ProdutoGradeCorCod: number;
-    ProdutoGradeCorNome: number;
-    ProdutoGradeCorHexa: number;
+    ProdutoGradeCorNome: string;
+    ProdutoGradeCorHexa: string;
     ProdutoGradeBarras: number;
     ProdutoGradeOrdem: number;
     GradeQtdeProducao: number;

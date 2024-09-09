@@ -19,7 +19,7 @@ export interface GxsdtChequesPgto {
     ChequeBomPara: string;
     FilialOleriteCod: number;
     FuncionarioOleriteCod: number;
-    FuncionarioOleriteNome: number;
+    FuncionarioOleriteNome: string;
     OleriteCod: number;
     OleriteDuplicataID: number;
 }

@@ -1,7 +1,7 @@
 
 export interface GxsdtEnvioCorteGrade {
     CorteEtapaMovtoGrdOrd: number;
-    CorteEtapaMovtoGrdCorNome: number;
+    CorteEtapaMovtoGrdCorNome: string;
     CorteEtapaMovtoGrdTam: number;
     CorteEtapaMovtoGrdQtd: number;
 }
@@ -16,7 +16,7 @@ export interface GxsdtEnvioCorte {
     CorteId: number;
     CorteProdutoReferencia: string;
     CorteProdutoCod: number;
-    CorteProdutoDescricao: number;
+    CorteProdutoDescricao: string;
     CorteEtapaId: number;
     CorteEtapaMovtoId: number;
     CorteEtapaMovtoData: string;
@@ -24,7 +24,7 @@ export interface GxsdtEnvioCorte {
     CorteEtapaMovtoUsr: string;
     CorteEtapaMovtoPedido: number;
     CorteEtapaMovtoBenCod: number;
-    CorteEtapaMovtoBenNome: number;
+    CorteEtapaMovtoBenNome: string;
     Grade: GxsdtEnvioCorteGrade;
     Aviamentos: GxsdtEnvioCorteAviamentos;
 }

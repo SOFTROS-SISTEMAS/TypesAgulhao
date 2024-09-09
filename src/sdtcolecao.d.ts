@@ -8,7 +8,7 @@ export interface GxsdtColecaoFaturamento {
         
 export interface GxsdtColecaoVendedor {
     ColecaoVendedorCod: number;
-    ColecaoVendedorNome: number;
+    ColecaoVendedorNome: string;
     ColecaoVendedorMeta: number;
     ColecaoVendedorMetaCliNovos: number;
     ColecaoVendedorVlrVendido: number;
