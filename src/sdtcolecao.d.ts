@@ -48,5 +48,5 @@ export interface GxsdtColecao {
     Faturamento: GxsdtColecaoFaturamento[];
     Vendedor: GxsdtColecaoVendedor[];
     Produto: GxsdtColecaoProduto[];
-    regrasPedidosAnalise?: GxsdtColecaoRegrasPedidosAnalise;
+    RegrasPedidosAnalise?: GxsdtColecaoRegrasPedidosAnalise;
 }
