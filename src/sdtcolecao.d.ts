@@ -21,6 +21,11 @@ export interface GxsdtColecaoProduto {
     ProdutoReferencia: string;
     ProdutoDescricao: string;
 }
+
+export interface GxsdtColecaoRegrasPedidosAnalise {
+    camposObrigatoriosColecao?: string[];
+    camposObrigatoriosPadrao?: string[];
+}
         
 export interface GxsdtColecao {
     ColecaoCod: number; // Coleção
@@ -43,5 +48,5 @@ export interface GxsdtColecao {
     Faturamento: GxsdtColecaoFaturamento[];
     Vendedor: GxsdtColecaoVendedor[];
     Produto: GxsdtColecaoProduto[];
+    regrasPedidosAnalise?: GxsdtColecaoRegrasPedidosAnalise;
 }
-        
