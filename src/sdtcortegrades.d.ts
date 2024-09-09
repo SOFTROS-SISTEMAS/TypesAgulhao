@@ -12,7 +12,7 @@ export interface GxsdtCorteGradesCorteGrades {
     CorteGradeEnfestoC: number; // Enfesto C
     CorteGradeRetalho: number; // Retalho
     CorteGradeZiperCod: number; // Ziper
-    CorteGradeZiperDescricao: number;
+    CorteGradeZiperDescricao: string;
     CorteGradeEtqCod: number; // Etiqueta
     CorteGradeEtqDescricao: string;
 }

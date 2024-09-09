@@ -29,7 +29,7 @@ export interface GxsdtCapaPedido {
     FilialCod: number;
     FilialNom: string;
     PedidoPrazoCod: number;
-    PedidoPrazoDescricao: number;
+    PedidoPrazoDescricao: string;
     PedidoPrazoParcelas: string;
     PedidoStatus: string;
     PedidoSaidaStatus: number;
@@ -95,7 +95,7 @@ export interface GxsdtCapaPedido {
     PedidoDataAprovado: string;
     PedidoAprovadoPor: string;
     PedidoLocalCobCod: number;
-    PedidoLocalCobDesc: number;
+    PedidoLocalCobDesc: string;
     PedidoDataBaseFat: string;
     PedidoClienteDescontoId: number;
     PedidoIsTroca: boolean;
@@ -106,7 +106,7 @@ export interface GxsdtCapaPedido {
     PedidoPadrao: boolean;
     PedidoDiagnostico: string;
     SBPedidoGrupoCod: number;
-    SBPedidoGrupoDescricao: number;
+    SBPedidoGrupoDescricao: string;
     PedidoPrevFaturamento: string;
     PedidoDiasProxVisita: number;
     PedidoDtaVndIni: string;

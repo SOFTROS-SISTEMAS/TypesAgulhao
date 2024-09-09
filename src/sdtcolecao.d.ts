@@ -37,7 +37,7 @@ export interface GxsdtColecao {
     ColecaoValidarEstoqueExc: string;
     ColecaoInativarGrdZeradas: boolean;
     ColecaoTipoLctoCod: number;
-    ColecaoTipoLctoDesc: number;
+    ColecaoTipoLctoDesc: string;
     ColecaoPoliticas: string;
     checado: boolean;
     Faturamento: GxsdtColecaoFaturamento[];

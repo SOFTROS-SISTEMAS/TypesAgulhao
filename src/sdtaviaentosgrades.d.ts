@@ -12,7 +12,7 @@ export interface GxsdtAviaentosGradesGrade {
         
 export interface GxsdtAviaentosGrades {
     AviProdutoCod: number;
-    AviProdutoDescricao: number;
+    AviProdutoDescricao: string;
     AviProdutoIsTecido: number;
     AviProdutoIsAviamento: number;
     UnidadeMedidaSigla: string;

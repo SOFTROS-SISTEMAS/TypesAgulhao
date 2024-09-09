@@ -153,7 +153,7 @@ export interface GxsdtUrlProducaoCortesCorteEtapas {
         
 export interface GxsdtUrlProducaoCortesCorteSetor {
     CorteSetorCod: number; // Corte Setor Cod
-    CorteSetorDescricao: number; // Corte Setor Descricao
+    CorteSetorDescricao: string; // Corte Setor Descricao
     CorteSetorIsProducao: number; // Corte Setor Is Producao
     CorteSetorDataEnvio: string; // Corte Setor Data Envio
     CorteSetorDataEntrega: string; // Corte Setor Data Entrega
@@ -227,7 +227,7 @@ export interface GxsdtUrlProducaoCortes {
     CorteTotalPecasNFe: number; // Corte Total Pecas NFe
     CorteTotalPecasSaldo: number; // Corte Total Pecas Saldo
     CorteProdutoCod: number; // Corte Produto Cod
-    CorteProdutoDescricao: number; // Corte Produto Descricao
+    CorteProdutoDescricao: string; // Corte Produto Descricao
     CorteProdutoReferencia: string; // Corte Produto Referencia
     CorteProdutoTotalPontos: number; // Corte Produto Total Pontos
     CorteProdutoMarcod: number; // Corte Produto Marcod
@@ -241,9 +241,9 @@ export interface GxsdtUrlProducaoCortes {
     CorteProdutoGenero: number; // Corte Produto Genero
     CorteTotalPontos: number; // Corte Total Pontos
     CorteprodutoTeccod: number; // Corte Produto tec cod
-    Corteprodutotecdescricao: number; // Corte Produto Tec Descricao
+    Corteprodutotecdescricao: string; // Corte Produto Tec Descricao
     CorteProdutoIndCod: number; // Corte Produto Ind Cod
-    CorteProdutoIndDescricao: number; // Corte Produto Ind Descricao
+    CorteProdutoIndDescricao: string; // Corte Produto Ind Descricao
     CorteProdutoIndReferencia: string; // Corte Produto Ind Referencia
     CorteProdutoIndMarcaCod: number; // Corte Produto Ind Marca Cod
     CorteProdutoIndMarcaDesc: number; // Corte Produto Ind Marca Desc
@@ -335,7 +335,7 @@ export interface GxsdtUrlProducaoPacotesOperacoes {
     produtoDescricao: string;
     produtoOperacaoTipoMaquinaDsc: number;
     produtoOperacaoTempo: string;
-    produtoOperacaoDescricao: number;
+    produtoOperacaoDescricao: string;
     Apontamentos: GxsdtUrlProducaoPacotesOperacoesApontamentos[];
 }
         
@@ -359,7 +359,7 @@ export interface GxsdtUrlProducaoFuncionariosApontamento {
     corteMovtoQtdePecas: number;
     corteId: number;
     corteMovto_OperacaoCod: number;
-    corteMovto_OperacaoDescricao: number;
+    corteMovto_OperacaoDescricao: string;
     corteMovtoTotalPontos: number;
     isParado: boolean;
 }

@@ -4,8 +4,8 @@ export interface GxR04001_SDTProducao {
     CorteOP: number;
     CorteProdutoCod: number;
     CorteProdutoReferencia: string;
-    CorteProdutoDescricao: number;
-    CorteMovto_OperacaoDescricao: number;
+    CorteProdutoDescricao: string;
+    CorteMovto_OperacaoDescricao: string;
     CorteMovtoData: string;
     CorteMovtoPontosOperacao: number;
     CorteMovtoQtdePecas: number;

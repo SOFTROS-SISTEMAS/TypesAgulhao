@@ -2,7 +2,7 @@
 export interface GxsdtCortePCP {
     CorteId: number;
     CorteProdutoCod: number;
-    CorteProdutoDescricao: number;
+    CorteProdutoDescricao: string;
     CorteProdutoReferencia: string;
     CorteDataEntrada: string;
     CorteDataOficina: string;
