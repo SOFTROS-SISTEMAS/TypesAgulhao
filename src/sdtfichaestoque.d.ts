@@ -18,7 +18,7 @@ export interface GxsdtFichaEstoque {
     EstGrdQtdeGradeEntrada: number; // Est Grd Qtde Grade
     EstGrdProdutoGradeBarras: number; // Est Grd Produto Grade Barras
     EstGrdProdutoGradeCorCod: number; // Est Grd Produto Grade Cor Cod
-    EstGrdProdutoGradeCorNome: number;
+    EstGrdProdutoGradeCorNome: string;
     EstGrdProdutoGradeNumero: string; // Est Grd Produto Grade Numero
     EstGrdQtdeGradeSaida: number;
     EstGrdPedidoDataFechamento: string; // Est Grd Pedido Data Fechamento
