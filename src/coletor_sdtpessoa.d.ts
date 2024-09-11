@@ -69,6 +69,7 @@ export interface GxColetor_sdtPessoa {
     PessoaNovoCod: number;
     PessoaLocalizacao: string;
     FuncionarioTabelaPrecoCod: number;
+    TabelaPrecoClienteCod: number;
     PessoaIsGuia: boolean;
     ClienteRef1: string;
     ClienteRef2: string;
