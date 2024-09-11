@@ -67,7 +67,7 @@ export interface GxColetor_sdtPessoa {
     PessoaFuncionarios: string;
     UltUpdPessoa: string;
     PessoaNovoCod: number;
-    PessoaLocalizacao: number;
+    PessoaLocalizacao: string;
     FuncionarioTabelaPrecoCod: number;
     PessoaIsGuia: boolean;
     ClienteRef1: string;
