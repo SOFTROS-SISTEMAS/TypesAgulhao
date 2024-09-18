@@ -29,6 +29,7 @@ export interface GxAppClienteEmpresa {
     ValidarEstoque: boolean;
     TipoGradeVenda: string; // Tipo de exibição das grades na venda
     Simplificado: boolean;
+    Cnpj: string;
     MarcadorPadrao: GxAppClienteEmpresaMarcadorPadrao[];
     InfoCompra: GxAppClienteEmpresaInfoCompra[];
 }
@@ -161,6 +162,15 @@ export interface GxAppClientePedidosFormasPagamento {
     FormaPagamentoValor: number;
 }
         
+export interface GxAppClientePedidosDuplicatas {
+    DuplicataId: number;
+    DuplicataValor: number;
+    DuplicataVencimento: string;
+    DuplicataBoletoUrl: string;
+    DuplicataSaldoFis: number;
+    DuplicataStatus: string;
+}
+        
 export interface GxAppClientePedidos {
     PedidoId: number;
     PedidoDataEmissao: string;
@@ -176,8 +186,30 @@ export interface GxAppClientePedidos {
     PedidoObservacoes: string;
     UltimaAtualizacao: string;
     Entrega: GxSdtImportadosdtEntrega;
+    PedidoTipo: string;
+    PedidoPrevisaoEntrega: string;
+    PedidoHoraEmissao: string;
+    PedidoVendedorNome: number;
+    PedidoVendedorCod: number;
+    PedidoCliCod: number;
+    PedidoColecaoCod: number;
+    UltUpdPedido: string;
+    PedidoDescontoPerc: number;
+    PedidoDescontoDinheiro: number;
+    PedidoStatusFinanceiro: string;
+    PessoaCpfCnpj: string;
+    PedidoValorBruto: number;
+    PedidoClienteNome: number;
+    PedidoValorFrete: number;
+    PedidoValorSeguro: number;
+    PedidoValorOutros: number;
+    PedidoValorST: number;
+    PedidoDanfeUrl: string;
+    PedidoXmlNfeUrl: string | null;
+    PedidoStatus: string;
     Itens: GxAppClientePedidosItens[];
     FormasPagamento: GxAppClientePedidosFormasPagamento[];
+    Duplicatas: GxAppClientePedidosDuplicatas[];
 }
         
 export interface GxAppClienteMarcadores {
@@ -241,4 +273,3 @@ export interface GxAppCliente {
     Guias: GxAppClienteGuias[];
     Vendedor: GxAppClienteVendedor;
 }
-        
