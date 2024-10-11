@@ -41,6 +41,24 @@ export interface GxAppClienteClienteescopos {
 	verFinanceiro: boolean;
 }
 
+export interface GxAppClienteClienteDuplicatas {
+	DuplicataId: number;
+	DuplicataValor: number;
+	DuplicataVencimento: string;
+	DuplicataBoletoUrl: string;
+	DuplicataSaldoFis: number;
+	DuplicataStatus: string;
+}
+
+export interface GxAppClienteClientePedidos {
+	PedidoId: number;
+	PedidoValorLiquido: number;
+	PedidoIdExterno: string;
+	PedidoSaidaStatus: number;
+	PedidoStatus: number;
+	PedidoDataEmissao: string;
+}
+
 export interface GxAppClienteCliente {
 	ClienteCpfCnpj: string | null;
 	ClienteSenha?: string;
@@ -72,6 +90,8 @@ export interface GxAppClienteCliente {
 	PessoaApiSoftros: string;
 	ConectadoComAgulhao: boolean;
 	escopos: GxAppClienteClienteescopos;
+	Duplicatas: GxAppClienteClienteDuplicatas[];
+	Pedidos: GxAppClienteClientePedidos[];
 }
 
 export interface GxAppClienteProdutosCores {
@@ -224,6 +244,7 @@ export interface GxAppClienteFiltros {
 	FiltroBusca: string;
 	UltimaAtualizacao: string;
 	ComGrade: boolean;
+	DuplicataId: number;
 }
 
 export interface GxAppClienteTabelaPreco {
