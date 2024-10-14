@@ -55,8 +55,16 @@ export interface GxAppClienteClientePedidos {
 	PedidoValorLiquido: number;
 	PedidoIdExterno: string;
 	PedidoSaidaStatus: number;
-	PedidoStatus: number;
+	PedidoStatus: string;
 	PedidoDataEmissao: string;
+}
+
+export interface GxAppClienteClientevalePresentes {
+	ValePresenteCod: string;
+	ValePresenteDescricao: string;
+	ValePresenteValor: number;
+	ValePresenteData: string;
+	ValePresenteSaldo: number;
 }
 
 export interface GxAppClienteCliente {
@@ -92,6 +100,7 @@ export interface GxAppClienteCliente {
 	escopos: GxAppClienteClienteescopos;
 	Duplicatas: GxAppClienteClienteDuplicatas[];
 	Pedidos: GxAppClienteClientePedidos[];
+	valePresentes: GxAppClienteClientevalePresentes[];
 }
 
 export interface GxAppClienteProdutosCores {
