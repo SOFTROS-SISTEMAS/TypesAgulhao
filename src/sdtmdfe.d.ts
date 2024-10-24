@@ -29,6 +29,15 @@ export interface GxsdtMdfeMdfeAutXml {
     MdfeAutCpfCnpj: string; // Documento do autorizado a baixar o xml
 }
         
+export interface GxsdtMdfeCiots {
+    MdfeCiot: number;
+    MdfeCiotCpfcnpj: string;
+}
+        
+export interface GxsdtMdfeMDFeContratanteCpfCnpj {
+    MDFeContratanteCpfCnpj: string;
+}
+        
 export interface GxsdtMdfe {
     EmpresaCodigo: number; // Empresa Codigo
     MdfeNova: boolean;
@@ -82,10 +91,26 @@ export interface GxsdtMdfe {
     MdfeArqXml: string; // Arquivo Xml do MDFe
     SBMdfeCargaCMun: number;
     SBMdfeCargaXMun: number;
+    MdfeProdPredTpCarga: string;
+    MdfeProdPredXProd: string;
+    MdfeSeguroCPFCNPJResp: string;
+    MDFeSeguronAver: string;
+    MDFeSeguronApol: string;
+    MDFeSeguroxSeg: string;
+    MDFeSeguroCod: number; // Código Seguro
+    MdfeProdPredCepDes: string;
+    MdfeProdPredCepCar: string;
+    MdfeSeguroResp: number;
+    MdfeTotQDoc: number;
+    MdfeVeiculosPlaca: string;
+    MdfeVeiculosReboque: string;
+    TmpMdfeCod: number;
     MdfePercurso: GxsdtMdfeMdfePercurso[];
     MdfeDescarga: GxsdtMdfeMdfeDescarga[];
     MdfeVeiculos: GxsdtMdfeMdfeVeiculos[];
     MdfeMotoristas: GxsdtMdfeMdfeMotoristas[];
     MdfeAutXml: GxsdtMdfeMdfeAutXml[];
+    Ciots: GxsdtMdfeCiots[];
+    MDFeContratanteCpfCnpj: GxsdtMdfeMDFeContratanteCpfCnpj[];
 }
         
