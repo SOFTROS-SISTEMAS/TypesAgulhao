@@ -90,7 +90,7 @@ export interface GxsdtMdfe {
     MdfeProtCancData: string; // Data e hora do cancelamento
     MdfeArqXml: string; // Arquivo Xml do MDFe
     SBMdfeCargaCMun: number;
-    SBMdfeCargaXMun: number;
+    SBMdfeCargaXMun: string;
     MdfeProdPredTpCarga: string;
     MdfeProdPredXProd: string;
     MdfeSeguroCPFCNPJResp: string;
