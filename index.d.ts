@@ -250,3 +250,4 @@ export * from './src/sdtconfigapp';
 export * from './src/sdtmarcasg';
 export * from './src/sdtmdfe';
 export * from './src/sdtformapgto';
+export * from './src/sdtanotacao';
