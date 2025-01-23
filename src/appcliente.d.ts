@@ -176,6 +176,7 @@ export interface GxAppClienteProdutos {
 export interface GxAppClientePedidosItens {
 	ProdutoCod: number;
 	ProdutoGradeId: number;
+	ProdutoReferencia: string;
 	ProdutoDescricaoCompleta: string;
 	PedidoItemQtde: number;
 	PedidoItemVlrUnitario: number;
