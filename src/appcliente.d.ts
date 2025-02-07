@@ -219,7 +219,7 @@ export interface GxAppClientePedidos {
 	PedidoTipo: string;
 	PedidoPrevisaoEntrega: string;
 	PedidoHoraEmissao: string;
-	PedidoVendedorNome: number;
+	PedidoVendedorNome: string;
 	PedidoVendedorCod: number;
 	PedidoCliCod: number;
 	PedidoColecaoCod: number;

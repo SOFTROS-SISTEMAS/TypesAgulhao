@@ -1,7 +1,7 @@
 export interface GxsdtHookPedidocapa {
 	PedidoId: number;
-	PedidoVendedorNome: number;
-	PedidoClienteNome: number;
+	PedidoVendedorNome: string;
+	PedidoClienteNome: string;
 	PedidoDataEmissao: string;
 	PedidoValorLiquido: number;
 	PedidoValorBruto: number;
@@ -25,7 +25,7 @@ export interface GxsdtHookPedidoitens {
 	PedidoItemQuantidade: number;
 	PedidoItemValorLiquido: number;
 	PedidoItemValorTabela: number;
-	ProdutoGradeCorNome: number;
+	ProdutoGradeCorNome: string;
 }
 
 export interface GxsdtHookPedidopagamentostef {
