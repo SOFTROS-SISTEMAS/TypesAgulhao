@@ -2,6 +2,18 @@ import { GxsdtEntrega as GxSdtImportadosdtEntrega } from './sdtentrega';
 import { GxsdtConfrontoFornecedor as GxSdtImportadosdtConfrontoFornecedor } from './sdtconfrontofornecedor';
 import { GxsdtPerfil as GxSdtImportadosdtPerfil } from './sdtperfil';
 
+export interface GxAppClienteCores {
+	CorCod: number;
+	CorNome: string;
+	CorHexa: string;
+	CorImgExt: string;
+}
+
+export interface GxAppClienteMarcadores {
+	MarcadorChave: string;
+	MarcadorDescricao: string;
+}
+
 export interface GxAppClienteRetorno {
 	RetornoNivel: number;
 	RetornoMensagem: string;
@@ -176,7 +188,6 @@ export interface GxAppClienteProdutos {
 export interface GxAppClientePedidosItens {
 	ProdutoCod: number;
 	ProdutoGradeId: number;
-	ProdutoReferencia: string;
 	ProdutoDescricaoCompleta: string;
 	PedidoItemQtde: number;
 	PedidoItemVlrUnitario: number;
@@ -185,6 +196,7 @@ export interface GxAppClientePedidosItens {
 	ProdutoImagemUrl: string | null;
 	PedidoItemDescontoPerc: number;
 	PedidoItemPrecoProm: number;
+	ProdutoReferencia: string;
 }
 
 export interface GxAppClientePedidosFormasPagamento {
@@ -242,11 +254,6 @@ export interface GxAppClientePedidos {
 	Duplicatas: GxAppClientePedidosDuplicatas[];
 }
 
-export interface GxAppClienteMarcadores {
-	MarcadorChave: string;
-	MarcadorDescricao: string;
-}
-
 export interface GxAppClienteFiltros {
 	FiltroPagina: number;
 	FiltroMarcador: string[];
@@ -291,13 +298,15 @@ export interface GxAppCliente {
 	mensagem?: string;
 	autenticado: boolean;
 	fornecedor: GxSdtImportadosdtConfrontoFornecedor;
+	Tamanhos: string[];
 	perfis: GxSdtImportadosdtPerfil[];
+	Cores: GxAppClienteCores[];
+	Marcadores: GxAppClienteMarcadores[];
 	Retorno: GxAppClienteRetorno[];
 	Empresa: GxAppClienteEmpresa;
 	Cliente: GxAppClienteCliente;
 	Produtos: GxAppClienteProdutos[];
 	Pedidos: GxAppClientePedidos[];
-	Marcadores: GxAppClienteMarcadores[];
 	Filtros: GxAppClienteFiltros;
 	TabelaPreco: GxAppClienteTabelaPreco[];
 	carrinho: GxAppClientecarrinho[];
