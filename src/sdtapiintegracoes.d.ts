@@ -18,6 +18,12 @@ export interface GxsdtApiIntegracoesintegracoes {
 	configuracoes: string;
 }
 
+export interface GxsdtApiIntegracoesprodutosintegracoes {
+	integracaoCod: number;
+	filialCod: number;
+	configuracoes: string;
+}
+
 export interface GxsdtApiIntegracoesprodutosimagens {
 	produtoImagemCodigo: number;
 	produtoImagemOrdem: number | null;
@@ -27,6 +33,7 @@ export interface GxsdtApiIntegracoesprodutosimagens {
 
 export interface GxsdtApiIntegracoesprodutosgradesintegracoes {
 	integracaoCod: number;
+	filialCod: number;
 	estoque: number;
 	precoPromocional: number;
 	preco: number;
@@ -58,6 +65,7 @@ export interface GxsdtApiIntegracoesprodutos {
 	produtoComprimento: number;
 	produtoPeso: number;
 	unidadeMedidaSigla: string;
+	integracoes: GxsdtApiIntegracoesprodutosintegracoes[];
 	imagens: GxsdtApiIntegracoesprodutosimagens[];
 	grades: GxsdtApiIntegracoesprodutosgrades[];
 }
