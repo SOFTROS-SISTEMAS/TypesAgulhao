@@ -39,6 +39,7 @@ export interface GxsdtApiIntegracoesprodutosgradesintegracoes {
 	estoque: number;
 	precoPromocional: number;
 	preco: number;
+	tipoEstoque: number;
 }
 
 export interface GxsdtApiIntegracoesprodutosgrades {
