@@ -2,6 +2,7 @@ export interface GxsdtApiIntegracoeserros {
 	mensagem: string;
 	tecnico: string;
 	produtoCod: number;
+	filialCod: number;
 	integracaoCod: number;
 }
 
@@ -10,6 +11,7 @@ export interface GxsdtApiIntegracoessucessos {
 	tecnico: string;
 	produtoCod: number;
 	integracaoCod: number;
+	filialCod: number;
 }
 
 export interface GxsdtApiIntegracoesintegracoes {
