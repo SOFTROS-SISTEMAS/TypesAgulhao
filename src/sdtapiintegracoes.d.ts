@@ -1,9 +1,12 @@
+import { GxsdtPedidoApi as GxSdtImportadosdtPedidoApi } from './sdtpedidoapi';
+
 export interface GxsdtApiIntegracoeserros {
 	mensagem: string;
 	tecnico: string;
 	produtoCod: number;
 	integracaoCod: number;
 	filialCod: number;
+	pedidoId: number;
 }
 
 export interface GxsdtApiIntegracoessucessos {
@@ -12,6 +15,7 @@ export interface GxsdtApiIntegracoessucessos {
 	produtoCod: number;
 	integracaoCod: number;
 	filialCod: number;
+	pedidoId: number;
 }
 
 export interface GxsdtApiIntegracoesintegracoes {
@@ -81,10 +85,12 @@ export interface GxsdtApiIntegracoesprodutos {
 }
 
 export interface GxsdtApiIntegracoes {
+	id: string;
 	acao: string;
 	coringa: string;
 	filiais: number[];
 	listaCodigosProdutos: number[];
+	pedidos: GxSdtImportadosdtPedidoApi[];
 	erros: GxsdtApiIntegracoeserros[];
 	sucessos: GxsdtApiIntegracoessucessos[];
 	integracoes: GxsdtApiIntegracoesintegracoes[];
