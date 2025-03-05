@@ -18,6 +18,7 @@ export interface GxsdtPedidoApientrega {
 
 export interface GxsdtPedidoApiprodutos {
 	produtoCod: number;
+	produtoGradeBarras: number;
 	produtoGradeId: number;
 	descontoDinheiro: number;
 	descontoPercentual: number;
@@ -34,6 +35,7 @@ export interface GxsdtPedidoApipagamentos {
 	bandeiraCod: number;
 	pago: boolean;
 	tipoCartao: string;
+	gatewayId: string;
 }
 
 export interface GxsdtPedidoApilinkPagamento {
