@@ -84,6 +84,26 @@ export interface GxsdtApiIntegracoesprodutos {
 	grades: GxsdtApiIntegracoesprodutosgrades[];
 }
 
+export interface GxsdtApiIntegracoesestoque {
+	produtoCod: number;
+	produtoGradeId: number;
+	produtoGradeBarras: number;
+	integracaoCod: number;
+	filialCod: number;
+	qtde: number;
+}
+
+export interface GxsdtApiIntegracoesprodutosIntegracoes {
+	id: string;
+	idIntegracao: number;
+	filialCod: number;
+	codigo: string;
+	codigoAgulhao: number;
+	ativo: boolean;
+	sincronizar: boolean;
+	json: string;
+}
+
 export interface GxsdtApiIntegracoes {
 	id: string;
 	acao: string;
@@ -95,4 +115,6 @@ export interface GxsdtApiIntegracoes {
 	sucessos: GxsdtApiIntegracoessucessos[];
 	integracoes: GxsdtApiIntegracoesintegracoes[];
 	produtos: GxsdtApiIntegracoesprodutos[];
+	estoque: GxsdtApiIntegracoesestoque[];
+	produtosIntegracoes: GxsdtApiIntegracoesprodutosIntegracoes[];
 }
