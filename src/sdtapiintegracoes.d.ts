@@ -98,9 +98,9 @@ export interface GxsdtApiIntegracoesprodutosIntegracoes {
 	idIntegracao: number;
 	filialCod: number;
 	codigo: string;
-	codigoAgulhao: number;
-	ativo: boolean;
-	sincronizar: boolean;
+	codigoAgulhao: string;
+	ativo: number;
+	sincronizar: number;
 	json: string;
 }
 
