@@ -249,6 +249,7 @@ export interface GxAppClientePedidos {
 	PedidoDanfeUrl: string;
 	PedidoXmlNfeUrl: string | null;
 	PedidoStatus: string;
+	IdPedidoExterno: string;
 	Itens: GxAppClientePedidosItens[];
 	FormasPagamento: GxAppClientePedidosFormasPagamento[];
 	Duplicatas: GxAppClientePedidosDuplicatas[];
