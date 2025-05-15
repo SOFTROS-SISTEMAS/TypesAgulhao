@@ -59,6 +59,7 @@ export interface GxsdtPedidoApi {
 	valorOutros: number;
 	cliente: GxsdtPedidoApicliente;
 	entrega: GxsdtPedidoApientrega;
+	tipoPedido: string;
 	produtos: GxsdtPedidoApiprodutos[];
 	pagamentos: GxsdtPedidoApipagamentos[];
 	linkPagamento: GxsdtPedidoApilinkPagamento;
