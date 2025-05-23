@@ -60,6 +60,7 @@ export interface GxsdtPedidoApi {
 	cliente: GxsdtPedidoApicliente;
 	entrega: GxsdtPedidoApientrega;
 	tipoPedido: string;
+	atualizaParcial: boolean;
 	produtos: GxsdtPedidoApiprodutos[];
 	pagamentos: GxsdtPedidoApipagamentos[];
 	linkPagamento: GxsdtPedidoApilinkPagamento;
