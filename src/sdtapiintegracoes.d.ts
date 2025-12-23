@@ -27,6 +27,8 @@ export interface GxsdtApiIntegracoesintegracoes {
 export interface GxsdtApiIntegracoesprodutosmarcadores {
 	produtoSecaoCod: number;
 	produtoSecaoNom: string;
+	produtoSecaoPai: number | null;
+	produtoSecaoPaiNome: string | null;
 }
 
 export interface GxsdtApiIntegracoesprodutosintegracoes {
