@@ -257,6 +257,11 @@ export interface GxAppClientePedidos {
 	TransportadoraNome: string;
 	TransportadoraSite: string;
 	linkRastreioTransportadora: string;
+	PedidoTransportadoraCod: number;
+	IdNfe: string;
+	nNf: number;
+	prot_chNFe: string;
+	dest_CPFCNPJ: string;
 	Itens: GxAppClientePedidosItens[];
 	FormasPagamento: GxAppClientePedidosFormasPagamento[];
 	Duplicatas: GxAppClientePedidosDuplicatas[];
