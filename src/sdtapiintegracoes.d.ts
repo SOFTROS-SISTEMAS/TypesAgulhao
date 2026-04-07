@@ -75,6 +75,7 @@ export interface GxsdtApiIntegracoesprodutos {
 	produtoDescricao: string;
 	produtoSexo: string;
 	marcaNome: string;
+	marcaCod: number;
 	produtoAltura: number;
 	produtoLargura: number;
 	produtoComprimento: number;
