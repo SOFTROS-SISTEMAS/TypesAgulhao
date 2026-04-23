@@ -253,3 +253,4 @@ export * from './src/sdtformapgto';
 export * from './src/sdtanotacao';
 export * from './src/sdtapibancos';
 export * from './src/sdtapiintegracoes';
+export * from './src/sdtia';
