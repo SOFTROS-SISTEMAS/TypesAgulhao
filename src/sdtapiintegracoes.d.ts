@@ -83,6 +83,7 @@ export interface GxsdtApiIntegracoesprodutos {
 	unidadeMedidaSigla: string;
 	produtoDataAlteracaoImagem: string;
 	ultUpdProduto: string;
+	produtoAtivoInativo: string;
 	marcadores: GxsdtApiIntegracoesprodutosmarcadores[];
 	integracoes: GxsdtApiIntegracoesprodutosintegracoes[];
 	imagens: GxsdtApiIntegracoesprodutosimagens[];

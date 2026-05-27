@@ -258,6 +258,8 @@ export interface GxAppClientePedidos {
 	TransportadoraSite: string;
 	linkRastreioTransportadora: string;
 	PedidoTransportadoraCod: number;
+	PedidoIntegracaoId: string;
+	PedidoIntegracao: number;
 	IdNfe: string;
 	nNf: number;
 	prot_chNFe: string;
