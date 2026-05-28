@@ -211,6 +211,7 @@ export interface GxAppClientePedidosDuplicatas {
 	DuplicataBoletoUrl: string;
 	DuplicataSaldoFis: number;
 	DuplicataStatus: string;
+	DuplicataCodigoBarras: string;
 }
 
 export interface GxAppClientePedidos {
@@ -260,6 +261,7 @@ export interface GxAppClientePedidos {
 	PedidoTransportadoraCod: number;
 	PedidoIntegracaoId: string;
 	PedidoIntegracao: number;
+	OrdemCompra: string;
 	IdNfe: string;
 	nNf: number;
 	prot_chNFe: string;
