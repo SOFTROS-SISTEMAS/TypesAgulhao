@@ -58,6 +58,10 @@ export interface GxsdtApiIntegracoesprodutosgrades {
 	produtoGradeNumero: string;
 	produtoGradeId: number;
 	produtoGradeBarras: number;
+	produtoGradeDispVda: boolean;
+	produtoGradeDispEcom: boolean;
+	produtoGradeDispCorte: boolean;
+	produtoGradeOrdem: number;
 	corNome: string;
 	corCod: number;
 	corHexa: string;
@@ -84,6 +88,9 @@ export interface GxsdtApiIntegracoesprodutos {
 	produtoDataAlteracaoImagem: string;
 	ultUpdProduto: string;
 	produtoAtivoInativo: string;
+	grupoCod: number;
+	subGrupoCod: number;
+	subSubgrupoCod: number;
 	marcadores: GxsdtApiIntegracoesprodutosmarcadores[];
 	integracoes: GxsdtApiIntegracoesprodutosintegracoes[];
 	imagens: GxsdtApiIntegracoesprodutosimagens[];
