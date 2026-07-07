@@ -113,6 +113,15 @@ export interface GxAppClienteCliente {
 	Duplicatas: GxAppClienteClienteDuplicatas[];
 	Pedidos: GxAppClienteClientePedidos[];
 	valePresentes: GxAppClienteClientevalePresentes[];
+	CreditosDebitos: GxAppClienteCredDeb[];
+}
+
+export interface GxAppClienteCredDeb {
+	CredDebData: string;
+	CredDebExpiraEm: string;
+	CredDebOrigem: number;
+	CredDebStatus: string;
+	CredDevValor: number;
 }
 
 export interface GxAppClienteProdutosCores {
