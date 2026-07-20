@@ -206,6 +206,10 @@ export interface GxAppClientePedidosItens {
 	PedidoItemDescontoPerc: number;
 	PedidoItemPrecoProm: number;
 	ProdutoReferencia: string;
+	ProdutoGradeNumero: string;
+	UnidadeMedidaSigla: string;
+	CamposPersonalizadosJson: string | null;
+	FornecedorCodProduto: string | null;
 }
 
 export interface GxAppClientePedidosFormasPagamento {
@@ -270,6 +274,7 @@ export interface GxAppClientePedidos {
 	PedidoTransportadoraCod: number;
 	PedidoIntegracaoId: string;
 	PedidoIntegracao: number;
+	TipoLancamentoEstoque: string;
 	OrdemCompra: string;
 	IdNfe: string;
 	nNf: number;
