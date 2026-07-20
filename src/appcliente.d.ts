@@ -275,6 +275,7 @@ export interface GxAppClientePedidos {
 	PedidoIntegracaoId: string;
 	PedidoIntegracao: number;
 	TipoLancamentoEstoque: string;
+	TipoLancIsOrcamento: boolean;
 	OrdemCompra: string;
 	IdNfe: string;
 	nNf: number;
