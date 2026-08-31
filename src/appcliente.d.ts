@@ -281,6 +281,7 @@ export interface GxAppClientePedidos {
 	nNf: number;
 	prot_chNFe: string;
 	dest_CPFCNPJ: string;
+	entregue: boolean;
 	Itens: GxAppClientePedidosItens[];
 	FormasPagamento: GxAppClientePedidosFormasPagamento[];
 	Duplicatas: GxAppClientePedidosDuplicatas[];
